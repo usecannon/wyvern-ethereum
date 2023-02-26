@@ -1,0 +1,1700 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "contracts/Migrations.sol": {
+      "lastModificationDate": 1677453198154,
+      "contentHash": "4d6507fe586dc1ef42655fbbee382926",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "Migrations": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "Migrations.sol/Migrations.json"
+        }
+      }
+    },
+    "contracts/TestDAO.sol": {
+      "lastModificationDate": 1677453198154,
+      "contentHash": "f1a08adb912a6ae55f1d530a7b10b6ac",
+      "sourceName": "contracts/TestDAO.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenLocker.sol",
+        "contracts/common/TokenRecipient.sol",
+        "contracts/dao/DelegatedShareholderAssociation.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TestDAO": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TestDAO.sol/TestDAO.json"
+        }
+      }
+    },
+    "contracts/TestStatic.sol": {
+      "lastModificationDate": 1677453198154,
+      "contentHash": "e44f63bf4d18a24c73e3ccca8bf8598e",
+      "sourceName": "contracts/TestStatic.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TestStatic": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TestStatic.sol/TestStatic.json"
+        }
+      }
+    },
+    "contracts/TestToken.sol": {
+      "lastModificationDate": 1677453809162,
+      "contentHash": "fee7cafc3b0c2e7addcd21456c8f8241",
+      "sourceName": "contracts/TestToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TestToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TestToken.sol/TestToken.json"
+        }
+      }
+    },
+    "contracts/WyvernAtomicizer.sol": {
+      "lastModificationDate": 1677453198155,
+      "contentHash": "d1592ab41fdd27d8ee79cb21af38184a",
+      "sourceName": "contracts/WyvernAtomicizer.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernAtomicizer": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernAtomicizer.sol/WyvernAtomicizer.json"
+        }
+      }
+    },
+    "contracts/WyvernDAO.sol": {
+      "lastModificationDate": 1677453198155,
+      "contentHash": "980519b4960b9546051b698ad02e9aa9",
+      "sourceName": "contracts/WyvernDAO.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenLocker.sol",
+        "contracts/common/TokenRecipient.sol",
+        "contracts/dao/DelegatedShareholderAssociation.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernDAO": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernDAO.sol/WyvernDAO.json"
+        }
+      }
+    },
+    "contracts/WyvernDAOProxy.sol": {
+      "lastModificationDate": 1677453198155,
+      "contentHash": "15748086d0513fdd8685895b769de34b",
+      "sourceName": "contracts/WyvernDAOProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/dao/DelegateProxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernDAOProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernDAOProxy.sol/WyvernDAOProxy.json"
+        }
+      }
+    },
+    "contracts/WyvernExchange.sol": {
+      "lastModificationDate": 1677453198155,
+      "contentHash": "4d5bf87ee87dd50cb66d8d033f700a0d",
+      "sourceName": "contracts/WyvernExchange.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/ArrayUtils.sol",
+        "contracts/common/ReentrancyGuarded.sol",
+        "contracts/common/TokenRecipient.sol",
+        "contracts/exchange/Exchange.sol",
+        "contracts/exchange/ExchangeCore.sol",
+        "contracts/exchange/SaleKindInterface.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/TokenTransferProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernExchange": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernExchange.sol/WyvernExchange.json"
+        }
+      }
+    },
+    "contracts/WyvernProxyRegistry.sol": {
+      "lastModificationDate": 1677453198155,
+      "contentHash": "7defc372370b7e7dbaea4462e9424d15",
+      "sourceName": "contracts/WyvernProxyRegistry.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernProxyRegistry": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernProxyRegistry.sol/WyvernProxyRegistry.json"
+        }
+      }
+    },
+    "contracts/WyvernToken.sol": {
+      "lastModificationDate": 1677453809168,
+      "contentHash": "f75aee58ce0155ae6e9f3b333ca2c9ab",
+      "sourceName": "contracts/WyvernToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/token/DelayedReleaseToken.sol",
+        "contracts/token/UTXORedeemableToken.sol",
+        "lib/openzeppelin-contracts/contracts/MerkleProof.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BurnableToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernToken.sol/WyvernToken.json"
+        }
+      }
+    },
+    "contracts/WyvernTokenTransferProxy.sol": {
+      "lastModificationDate": 1677453198156,
+      "contentHash": "552724d64fbac93c54084f36aef38a2d",
+      "sourceName": "contracts/WyvernTokenTransferProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/TokenTransferProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "WyvernTokenTransferProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "WyvernTokenTransferProxy.sol/WyvernTokenTransferProxy.json"
+        }
+      }
+    },
+    "contracts/common/ArrayUtils.sol": {
+      "lastModificationDate": 1677453809168,
+      "contentHash": "8ed1b6e98d304a1eeca225df0114253a",
+      "sourceName": "contracts/common/ArrayUtils.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "ArrayUtils": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ArrayUtils.sol/ArrayUtils.json"
+        }
+      }
+    },
+    "contracts/common/ReentrancyGuarded.sol": {
+      "lastModificationDate": 1677453198156,
+      "contentHash": "e439a312df3866d6881051dd7d7ac000",
+      "sourceName": "contracts/common/ReentrancyGuarded.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "ReentrancyGuarded": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ReentrancyGuarded.sol/ReentrancyGuarded.json"
+        }
+      }
+    },
+    "contracts/common/TokenLocker.sol": {
+      "lastModificationDate": 1677453809168,
+      "contentHash": "c183f7d745aefef2cde1d99f3d6f9196",
+      "sourceName": "contracts/common/TokenLocker.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TokenLocker": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TokenLocker.sol/TokenLocker.json"
+        }
+      }
+    },
+    "contracts/common/TokenRecipient.sol": {
+      "lastModificationDate": 1677453809168,
+      "contentHash": "7f670b1d64d238c431b48500665782b0",
+      "sourceName": "contracts/common/TokenRecipient.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TokenRecipient": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TokenRecipient.sol/TokenRecipient.json"
+        }
+      }
+    },
+    "contracts/dao/DelegateProxy.sol": {
+      "lastModificationDate": 1677453809169,
+      "contentHash": "394b08f542b06922fbad83e2ada2e5fe",
+      "sourceName": "contracts/dao/DelegateProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "DelegateProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "DelegateProxy.sol/DelegateProxy.json"
+        }
+      }
+    },
+    "contracts/dao/DelegatedShareholderAssociation.sol": {
+      "lastModificationDate": 1677453809171,
+      "contentHash": "3e6098189df0535cdc2cd9589f61a50e",
+      "sourceName": "contracts/dao/DelegatedShareholderAssociation.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenLocker.sol",
+        "contracts/common/TokenRecipient.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "DelegatedShareholderAssociation": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "DelegatedShareholderAssociation.sol/DelegatedShareholderAssociation.json"
+        }
+      }
+    },
+    "contracts/exchange/Exchange.sol": {
+      "lastModificationDate": 1677453198158,
+      "contentHash": "434220c0804559f0c49587a5432c99db",
+      "sourceName": "contracts/exchange/Exchange.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/ArrayUtils.sol",
+        "contracts/common/ReentrancyGuarded.sol",
+        "contracts/common/TokenRecipient.sol",
+        "contracts/exchange/ExchangeCore.sol",
+        "contracts/exchange/SaleKindInterface.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/TokenTransferProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "Exchange": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "Exchange.sol/Exchange.json"
+        }
+      }
+    },
+    "contracts/exchange/ExchangeCore.sol": {
+      "lastModificationDate": 1677453809303,
+      "contentHash": "703b72d7414a7f440dbf9f889128cb0f",
+      "sourceName": "contracts/exchange/ExchangeCore.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/ArrayUtils.sol",
+        "contracts/common/ReentrancyGuarded.sol",
+        "contracts/common/TokenRecipient.sol",
+        "contracts/exchange/SaleKindInterface.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/TokenTransferProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "ExchangeCore": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ExchangeCore.sol/ExchangeCore.json"
+        }
+      }
+    },
+    "contracts/exchange/SaleKindInterface.sol": {
+      "lastModificationDate": 1677453809283,
+      "contentHash": "20c47b13b7e17505aea643c568d0a0fe",
+      "sourceName": "contracts/exchange/SaleKindInterface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "SaleKindInterface": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "SaleKindInterface.sol/SaleKindInterface.json"
+        }
+      }
+    },
+    "contracts/registry/AuthenticatedProxy.sol": {
+      "lastModificationDate": 1677453198159,
+      "contentHash": "3d7d83871316fd778f99b0c7c79714fc",
+      "sourceName": "contracts/registry/AuthenticatedProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "AuthenticatedProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "AuthenticatedProxy.sol/AuthenticatedProxy.json"
+        }
+      }
+    },
+    "contracts/registry/OwnableDelegateProxy.sol": {
+      "lastModificationDate": 1677453198159,
+      "contentHash": "e7e90e01691ba91e4007d8cc60d1d28d",
+      "sourceName": "contracts/registry/OwnableDelegateProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "OwnableDelegateProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "OwnableDelegateProxy.sol/OwnableDelegateProxy.json"
+        }
+      }
+    },
+    "contracts/registry/ProxyRegistry.sol": {
+      "lastModificationDate": 1677453809169,
+      "contentHash": "3292f5c1d411ae361bcf0c63e68a21f1",
+      "sourceName": "contracts/registry/ProxyRegistry.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "ProxyRegistry": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ProxyRegistry.sol/ProxyRegistry.json"
+        }
+      }
+    },
+    "contracts/registry/TokenTransferProxy.sol": {
+      "lastModificationDate": 1677453809169,
+      "contentHash": "4e78005fa156eb3f7883fc15db333386",
+      "sourceName": "contracts/registry/TokenTransferProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/common/TokenRecipient.sol",
+        "contracts/registry/AuthenticatedProxy.sol",
+        "contracts/registry/OwnableDelegateProxy.sol",
+        "contracts/registry/ProxyRegistry.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol",
+        "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "TokenTransferProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "TokenTransferProxy.sol/TokenTransferProxy.json"
+        }
+      }
+    },
+    "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1677453198160,
+      "contentHash": "2ee0721d96dc2729a1797efc23f33fbf",
+      "sourceName": "contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "contracts/registry/proxy/Proxy.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "OwnedUpgradeabilityProxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "OwnedUpgradeabilityProxy.sol/OwnedUpgradeabilityProxy.json"
+        }
+      }
+    },
+    "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol": {
+      "lastModificationDate": 1677453198160,
+      "contentHash": "ffc3653f6fcc01725d272902b289c047",
+      "sourceName": "contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "OwnedUpgradeabilityStorage": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "OwnedUpgradeabilityStorage.sol/OwnedUpgradeabilityStorage.json"
+        }
+      }
+    },
+    "contracts/registry/proxy/Proxy.sol": {
+      "lastModificationDate": 1677453198161,
+      "contentHash": "4468a8c17c35652c9506c4b5aff0c578",
+      "sourceName": "contracts/registry/proxy/Proxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "Proxy": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "Proxy.sol/Proxy.json"
+        }
+      }
+    },
+    "contracts/token/DelayedReleaseToken.sol": {
+      "lastModificationDate": 1677453809242,
+      "contentHash": "34c997e9e8cdbd7f7b3f95ce111c1d61",
+      "sourceName": "contracts/token/DelayedReleaseToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "DelayedReleaseToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "DelayedReleaseToken.sol/DelayedReleaseToken.json"
+        }
+      }
+    },
+    "contracts/token/UTXORedeemableToken.sol": {
+      "lastModificationDate": 1677453809221,
+      "contentHash": "1779bc15eb479e68181b48bfc99c5551",
+      "sourceName": "contracts/token/UTXORedeemableToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/MerkleProof.sol",
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol"
+      ],
+      "versionRequirement": "=0.4.23",
+      "artifacts": {
+        "UTXORedeemableToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "UTXORedeemableToken.sol/UTXORedeemableToken.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/MerkleProof.sol": {
+      "lastModificationDate": 1677453757412,
+      "contentHash": "ed9b32979c337c61c1b17517eec2dac6",
+      "sourceName": "lib/openzeppelin-contracts/contracts/MerkleProof.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "MerkleProof": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "MerkleProof.sol/MerkleProof.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1677453757417,
+      "contentHash": "74b680004a2b882e6fc95b0386355ad2",
+      "sourceName": "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "SafeMath": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "SafeMath.sol/SafeMath.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol": {
+      "lastModificationDate": 1677453757426,
+      "contentHash": "0dcca46270f0dad0f7a753c8758bbe6a",
+      "sourceName": "lib/openzeppelin-contracts/contracts/ownership/Ownable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "Ownable": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "Ownable.sol/Ownable.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol": {
+      "lastModificationDate": 1677453757428,
+      "contentHash": "c88255702228b1f882fea4898ef45850",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "BasicToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "BasicToken.sol/BasicToken.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/BurnableToken.sol": {
+      "lastModificationDate": 1677453757428,
+      "contentHash": "b557fd94068bd0381d4a5fb878627f2a",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/BurnableToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "BurnableToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "BurnableToken.sol/BurnableToken.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1677453757428,
+      "contentHash": "0cdf76866b6c90b8715242fb3372e586",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "ERC20": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol": {
+      "lastModificationDate": 1677453757429,
+      "contentHash": "7cdcedb6621d5e344cc434262d004660",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "ERC20Basic": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "ERC20Basic.sol/ERC20Basic.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol": {
+      "lastModificationDate": 1677453757429,
+      "contentHash": "1474ffcb71730bc98f2a60a247d81369",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/StandardToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/BasicToken.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20Basic.sol"
+      ],
+      "versionRequirement": "^0.4.23",
+      "artifacts": {
+        "StandardToken": {
+          "0.4.23+commit.124ca40d.Darwin.appleclang": "StandardToken.sol/StandardToken.json"
+        }
+      }
+    }
+  }
+}

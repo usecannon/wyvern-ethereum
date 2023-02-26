@@ -8,7 +8,7 @@
 
 pragma solidity 0.4.23;
 
-import "openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
+import "openzeppelin-contracts/token/ERC20/StandardToken.sol";
 
 /**
   * @title DelayedReleaseToken

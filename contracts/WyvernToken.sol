@@ -6,7 +6,7 @@
 
 pragma solidity 0.4.23;
 
-import "openzeppelin-solidity/contracts/token/ERC20/BurnableToken.sol";
+import "openzeppelin-contracts/token/ERC20/BurnableToken.sol";
 
 import "./token/UTXORedeemableToken.sol";
 import "./token/DelayedReleaseToken.sol";

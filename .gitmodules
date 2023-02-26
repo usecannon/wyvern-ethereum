@@ -1,3 +1,7 @@
 [submodule "utxo-merkle-proof"]
 	path = utxo-merkle-proof
 	url = https://github.com/ProjectWyvern/utxo-merkle-proof.git
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+	branch = v4.8.1
