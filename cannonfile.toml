@@ -1,0 +1,62 @@
+name = "opensea"
+version = "2.2"
+
+[setting.merkleRoot]
+description="Merkle tree root of the UTXO set for Wyvern Token"
+defaultValue="0x7574786f00000000000000000000000000000000000000000000000000000000"
+
+[setting.totalUtxoAmount]
+description="Total satoshis of the UTXO set for Wyvern Token"
+defaultValue="0"
+
+[setting.protocolFeeAddress]
+description="Protocol fee address for Wyvern Exchange"
+defaultValue="0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+
+[contract.TestToken]
+artifact="TestToken"
+
+[contract.TestDAO]
+artifact="TestDAO"
+args=["<%= contracts.TestToken.address %>"]
+depends=["contract.TestToken"]
+
+[contract.Migrations]
+artifact="Migrations"
+
+[contract.MerkleProof]
+artifact="MerkleProof"
+
+[contract.WyvernToken]
+artifact="WyvernToken"
+args=["<%= settings.merkleRoot %>","<%= settings.totalUtxoAmount %>"]
+
+[contract.WyvernDAO]
+artifact="WyvernDAO"
+args=["<%= contracts.WyvernToken.address %>"]
+depends=["contract.WyvernToken"]
+
+[contract.SaleKindInterface]
+artifact="SaleKindInterface"
+
+[contract.WyvernExchange]
+artifact="WyvernExchange"
+args=["<%= contracts.WyvernProxyRegistry.address %>","<%= contracts.WyvernTokenTransferProxy.address %>","<%= contracts.WyvernToken.address %>", "<%= settings.protocolFeeAddress %>"]
+depends=["contract.WyvernTokenTransferProxy", "contract.WyvernToken"]
+
+[contract.WyvernProxyRegistry]
+artifact="WyvernProxyRegistry"
+
+[contract.TestStatic]
+artifact="TestStatic"
+
+[contract.WyvernDAOProxy]
+artifact="WyvernDAOProxy"
+
+[contract.WyvernAtomicizer]
+artifact="WyvernAtomicizer"
+
+[contract.WyvernTokenTransferProxy]
+artifact="WyvernTokenTransferProxy"
+args=["<%= contracts.WyvernProxyRegistry.address %>"]
+depends=["contract.WyvernProxyRegistry"]
